@@ -1,2 +1,2 @@
 #!/bin/bash
-echo '''-rw-r--r--'''
+find . -type d -exec chmod +x {} \;
