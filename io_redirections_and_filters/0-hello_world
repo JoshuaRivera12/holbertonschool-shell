@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -m hello, world > 0-hello_world
+echo -m Hello, World > 0-hello_world
