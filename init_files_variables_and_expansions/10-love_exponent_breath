@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "$(echo "${BREATH:-1}^${LOVE:-1}" | bc)
