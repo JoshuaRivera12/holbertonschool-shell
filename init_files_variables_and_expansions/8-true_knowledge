@@ -1,2 +1,2 @@
 #!/bin/bash
- wc -l  --file0-from=TRUEKNOWLEDGE
+echo $((TRUEKNOWLEDGE+128))
