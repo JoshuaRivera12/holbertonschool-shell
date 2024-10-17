@@ -1,2 +1,2 @@
 #!/bin/bash
-count=0 while (( count < 676 )); a=$(( count / 26 + 97 )) b=$(( count % 26 + 97 )) if [[ "$a$b" != "oo" ]]; echo "$(printf \\$(printf '%03o' $a)\\$(printf '%03o' $b))" count=$(( count + 1 ))
+echo {a..z}{a..z} | tr ' ' '\n' | grep -v "oo"
